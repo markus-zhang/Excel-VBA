@@ -1,0 +1,5 @@
+Put everything in the same folder and run with Numpy and Scipy (I use Anaconda)
+This is for Case study IV.2.4 of "Market Risk Analysis", Carol used Excel so I figured it might help to use Python
+BTW I don't know why but if you compare the eigenvectors from Numpy and Matrix.xla, only the first column has the same sign.
+Both are actually correct, as you can multiply an eigenvector with C and both are valid eigenvectors.
+So I have to invert the sign of the vectors to get the same result
