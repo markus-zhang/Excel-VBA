@@ -69,7 +69,7 @@ End Sub
 Any programmer with some experience will immediately recognize that the potential problem of spamming **Case**
 
 I happened to stump upon this piece of code:
-(Better framework)[https://codereview.stackexchange.com/questions/64109/extensible-logging]
+[Better framework](https://codereview.stackexchange.com/questions/64109/extensible-logging)
 
 The author cleverly used a **Dictionary** to serve as a storage for all Loggers, the user may create his own Logger, by **Implements**
 the ILogger Interface, and registering it by calling the **Register** function of the LogManager.
