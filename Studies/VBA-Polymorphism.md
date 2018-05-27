@@ -80,4 +80,4 @@ And call the **Log** function in LogManager to format and output the log info:
 ```
 LogManager.Log DebugLevel, "we're done here.", "TestLogger"
 ```
-You can see that this is very neat and is closer to C++'s Polymorphism.
+You can see that this is very neat and is closer to C++'s Polymorphism. I can immediately use this piece of code for, say, a Monster factory class. I can store the info about all monsters in a JSON or a TXT file, and dump it into the Dictionary in Initialization, or to be more precise, in the **Create()** because Event Initialize cannot perform that. Then as the client to the framework he may just spawn monsters by their name, or ID.
